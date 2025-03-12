@@ -15,8 +15,8 @@ importers:
         specifier: ^11.0.0
         version: 11.0.0
       axios:
-        specifier: ^1.8.2
-        version: 1.8.2
+        specifier: ^1.8.3
+        version: 1.8.3
       dotenv:
         specifier: ^16.4.7
         version: 16.4.7
@@ -27,8 +27,11 @@ importers:
         specifier: ^9.0.2
         version: 9.0.2
       ruina-generator:
-        specifier: ^0.0.3
-        version: 0.0.3
+        specifier: ^0.0.8
+        version: 0.0.8
+      ruina-nominator:
+        specifier: ^0.0.1
+        version: 0.0.1
       zod:
         specifier: ^3.24.2
         version: 3.24.2
@@ -52,8 +55,8 @@ importers:
         specifier: ^13.0.0
         version: 13.0.0
       ruina-cli:
-        specifier: ^0.0.9
-        version: 0.0.9
+        specifier: ^0.0.16
+        version: 0.0.16
       tsup:
         specifier: ^8.4.0
         version: 8.4.0(postcss@8.5.3)(tsx@4.19.3)(typescript@5.8.2)
@@ -597,8 +600,8 @@ packages:
   avvio@9.1.0:
     resolution: {integrity: sha512-fYASnYi600CsH/j9EQov7lECAniYiBFiiAtBNuZYLA2leLe9qOvZzqYHFjtIj6gD2VMoMLP14834LFWvr4IfDw==}
 
-  axios@1.8.2:
-    resolution: {integrity: sha512-ls4GYBm5aig9vWx8AWDSGLpnpDQRtWAfrjU+EuytuODrFBkqesN2RkOQCBzrA1RQNHw1SmRMSDDDSwzNAYQ6Rg==}
+  axios@1.8.3:
+    resolution: {integrity: sha512-iP4DebzoNlP/YN2dpwCgb8zoCmhtkajzS48JvwmkSkXvPI3DHc7m+XYL5tGnSlJtR6nImXZmdCuN5aP8dh1d8A==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -1335,12 +1338,15 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  ruina-cli@0.0.9:
-    resolution: {integrity: sha512-JUM09Vk7xq3FjLtfqaeTxTgP+msipNK2Bw1xq704fOd4aIQurGfb7nHYqt0EHkOfjJ1gddu3obVAUOmg5V+86A==}
+  ruina-cli@0.0.16:
+    resolution: {integrity: sha512-/VEpuPmdgHqr/Z8w9IJ+4yOrXG7FexRaBrmlTTkfPd6t6Cw8Af3cSENiX3Cz/mb8jW7KkVyCtO97xzrgJx6Cvg==}
     hasBin: true
 
-  ruina-generator@0.0.3:
-    resolution: {integrity: sha512-Q+vSZS3nOpIdyU85KlwN2n7JJCpSD7CTb4yD+S+GU9MBpwmEvmk8+NY/sJRPNX/96D41RySzXz+sLnYHGElG1g==}
+  ruina-generator@0.0.8:
+    resolution: {integrity: sha512-qHCvI3dKwDYOivOgXJSw+DoXtrqftYdUn/TJV5F/KOhFU+PpCsSUkaT6JCTZMJKqc4RKkLNY7CNoiprfHe4NCQ==}
+
+  ruina-nominator@0.0.1:
+    resolution: {integrity: sha512-+DQ6r1kzTqiaCDwEaJ/7yex1oyJ/XTXTlePu6CaHdVLRaktlFDmTrY1W02zL93posTJ1tdp2gUYSVzrc2uj8cQ==}
 
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
@@ -2115,7 +2121,7 @@ snapshots:
       '@fastify/error': 4.0.0
       fastq: 1.19.1
 
-  axios@1.8.2:
+  axios@1.8.3:
     dependencies:
       follow-redirects: 1.15.9
       form-data: 4.0.2
@@ -2875,13 +2881,15 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.35.0
       fsevents: 2.3.3
 
-  ruina-cli@0.0.9:
+  ruina-cli@0.0.16:
     dependencies:
       zod: 3.24.2
 
-  ruina-generator@0.0.3:
+  ruina-generator@0.0.8:
     dependencies:
       ejs: 3.1.10
+
+  ruina-nominator@0.0.1: {}
 
   run-parallel@1.2.0:
     dependencies:

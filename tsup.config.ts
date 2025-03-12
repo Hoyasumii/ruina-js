@@ -1,6 +1,6 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-  entry: ["src", "!src/**/*.spec.*"],
+  entry: ["scripts", "templates", "!src", "!src/**/*.spec.*"],
   outDir: "./dist",
 });

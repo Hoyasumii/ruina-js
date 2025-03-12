@@ -5,7 +5,7 @@
     {
       "title": "make",
       "description": "Create an file",
-      "action": "scripts/make.js"
+      "action": "dist/scripts/make.js"
     }
   ]
 }

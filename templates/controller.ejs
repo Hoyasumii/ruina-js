@@ -1,0 +1,8 @@
+import { FastifyRequest, FastifyReply } from "fastify";
+
+export async function <%= controller %>(
+  request: FastifyRequest,
+  reply: FastifyReply
+): Promise<unknown> {
+  return reply.status(200).send("OK");
+}
