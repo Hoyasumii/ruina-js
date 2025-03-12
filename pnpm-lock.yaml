@@ -27,8 +27,8 @@ importers:
         specifier: ^9.0.2
         version: 9.0.2
       ruina-generator:
-        specifier: ^0.0.8
-        version: 0.0.8
+        specifier: ^0.0.9
+        version: 0.0.9
       ruina-nominator:
         specifier: ^0.0.1
         version: 0.0.1
@@ -1342,8 +1342,8 @@ packages:
     resolution: {integrity: sha512-/VEpuPmdgHqr/Z8w9IJ+4yOrXG7FexRaBrmlTTkfPd6t6Cw8Af3cSENiX3Cz/mb8jW7KkVyCtO97xzrgJx6Cvg==}
     hasBin: true
 
-  ruina-generator@0.0.8:
-    resolution: {integrity: sha512-qHCvI3dKwDYOivOgXJSw+DoXtrqftYdUn/TJV5F/KOhFU+PpCsSUkaT6JCTZMJKqc4RKkLNY7CNoiprfHe4NCQ==}
+  ruina-generator@0.0.9:
+    resolution: {integrity: sha512-FE2h8zA9aCuM+fAhs9iqMb+qh2TTs/qux2p6GJ6+dhFBN5Go5q0RYjGE8nnuEe20DNoYmLMa6SKhnMm9EfGyQA==}
 
   ruina-nominator@0.0.1:
     resolution: {integrity: sha512-+DQ6r1kzTqiaCDwEaJ/7yex1oyJ/XTXTlePu6CaHdVLRaktlFDmTrY1W02zL93posTJ1tdp2gUYSVzrc2uj8cQ==}
@@ -2885,9 +2885,10 @@ snapshots:
     dependencies:
       zod: 3.24.2
 
-  ruina-generator@0.0.8:
+  ruina-generator@0.0.9:
     dependencies:
       ejs: 3.1.10
+      ruina-nominator: 0.0.1
 
   ruina-nominator@0.0.1: {}
 
