@@ -1,0 +1,1 @@
+import {templateGenerator} from 'ruina-generator';
